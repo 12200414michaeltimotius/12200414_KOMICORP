@@ -7,11 +7,11 @@ use CodeIgniter\Model;
 class PenggunaModel extends Model
 {
     protected $DBGroup          = 'koneksiku';
-    protected $table            = 'penggunakomikcorp';
+    protected $table            = 'penggunakomik';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $protectFields    = true;
-    protected $allowedFields    = ['nama','password'];
+    protected $allowedFields    = ['nama', 'password'];
 
 }
